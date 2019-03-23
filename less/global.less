@@ -35,4 +35,43 @@ p {
   width: 100%;
   margin: 0 auto;  
 }
+.header-img {
+  border-radius: 5px;
+  width: 100%;
+}
 
+@media @phone {
+  .container {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .blast {
+    width: 100%;
+    
+  }
+  .sky {
+ display: none;
+  }
+  .launch {
+    display: none;
+  }
+  .walk {
+    flex-direction: column;
+    width:100% !important;
+    .walk-text {
+      width:100% !important;
+    }
+    
+    .walk-img {
+      order: -1;
+      width:100% !important;
+    }
+  }
+  img {
+    width:100% !important;
+  }
+  .btn {
+    width:100% !important;
+  }
+  }
